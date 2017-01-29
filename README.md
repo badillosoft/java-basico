@@ -70,3 +70,5 @@ class Persona {
       
 }
 ~~~
+
+> Incompleto: Esperen al martes o miércoles para el resumen completo.
