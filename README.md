@@ -52,3 +52,21 @@ int suma(int a, int b) {
 
 Podemos observar que el método `suma` recibe dos argumentos `a` y `b` de tipo entero. La variable `this.ans` pertenece al objeto y es un atributo interno de el. La palabra `this` se puede omitir cuando no hay ambigüedad de acceder a una variable del objeto como `ans`.
 
+Supongamos que deseamos crear una clase llamada `Persona` para representar de forma abstracta una persona en nuestro sistema, entonces tendríamos que crear un archivo llamado `Persona.java` y dentro de él el siguiente código:
+
+~~~java
+class Persona {
+      
+      String nombre;
+      int edad;
+      char sexo;
+      float estatura;
+      double peso;
+      
+      void saludar() {
+            System.out.printf("Nombre: %s Edad: %d Sexo: %c %n", nombre, edad, sexo);
+            System.out.printf("Estatura: %.2f Peso: %.2f %n", estatura, peso);
+      }
+      
+}
+~~~
