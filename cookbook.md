@@ -22,3 +22,20 @@ try {
   System.out.println(e.getMessage());
 }
 ~~~
+
+Podemos también usar la nueva notación de java para `try-catch`, revise las diferencias con el código anterior.
+
+~~~java
+// import java.io.FileReader
+// import java.io.IOException
+
+try(FileReader fr = new FileReader("path/.../file.ext")) {
+   
+  // TODO: Lógica del archivo (véase el ejemplo de archivos y Scanner)
+  
+  fr.close();
+} catch(IOException e) {
+  System.out.println(e.getMessage());
+}
+~~~
+
