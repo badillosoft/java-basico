@@ -2,6 +2,14 @@
 
 Instructor: Alan Badillo Salas <badillo.soft@hotmail.com>
 
+# Proyectos
+
+## IMPORTANTE:
+
+Subí el proyecto A para los que gusten hacerlo.
+
+El proyecto B y C los subiré cuando tenga tiempo, intenten trabajarlos.s
+
 # Tareas
 
 ## Tarea 1
