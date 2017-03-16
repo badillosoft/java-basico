@@ -10,6 +10,10 @@ Subí el proyecto A para los que gusten hacerlo.
 
 El proyecto B y C los subiré cuando tenga tiempo, intenten trabajarlos.s
 
+### Revisiones:
+
+Dany Moreno: https://www.youtube.com/watch?v=AtI8kQXG_3A
+
 # Tareas
 
 ## Tarea 1
