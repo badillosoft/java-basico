@@ -150,3 +150,10 @@ try(FileReader fr = new FileReader("path/.../file.ext")) {
 }
 ~~~
 
+> Contar los ´bytes´ de un archivo
+
+~~~java
+FileInputStream fin = new FileInputStream("...");
+
+~~
+~~~
