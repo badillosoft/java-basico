@@ -85,9 +85,27 @@ for (Persona p : personas) {
 }
 ~~~
 
-~~~java
+> HashMap
 
+~~~java
+HashMap<String, Persona> jefes = new HashMap();
+
+jefes.put("Soporte", pepe);
+jefes.put("Mentenimiento", luis);
+jefes.put("Finanzas", paco);
+jefes.put("Proyectos", beto);
+
+//...
+
+Persona jefe = jefes.get("Proyectos");
+
+jefe.Edad = 2312;
+
+jefe.saludar();
 ~~~
+
+> Nota: La diferencia entre ´ArrayList´ y ´HashMap´ es que la listas
+manejan indices y los diccionarios claves.
 
 ## Abrir un archivo
 
