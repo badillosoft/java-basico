@@ -41,6 +41,54 @@ persona2.saludar();
 persona1.saludar();
 ~~~
 
+## Colecciones
+
+Existen varias colecciones como ´ArrayList´, ´Stack´, ´HashSet´,
+´HashMap´. Las colecciónes son genéricas, es decir, que podemos utilizarlas
+con distintos tipos de elementos almacenados.
+
+> ArrayList
+
+~~~java
+ArrayList<Persona> personas = new ArrayList();
+
+for (int i = 1; i <= 100; i++) {
+  Persona p = new Persona();
+  p.Nombre = String.format("Persona%d", i);
+  p.Edad = 20 + i;
+  personas.add(p);
+}
+
+Persona h = personas.get(13);
+
+h.Edad = 9999;
+
+h.saludar();
+
+personas.get(23).Edad = 8888;
+~~~
+
+> Nota: El objeto ´h´ hace referencia al objeto obtenido de la lista
+en la posición ´13´. Si modificamos los atributos del objeto ´h´
+se modifican los atributos del objeto de la lista ´personas´ en el
+índice ´13´.
+
+~~~java
+personas.add(13, null);
+
+for (Persona p : personas) {
+  if (p == null) {
+    continue;
+  }
+  
+  p.saludar();
+}
+~~~
+
+~~~java
+
+~~~
+
 ## Abrir un archivo
 
 Para abrir el flujo de un archivo hay que tomar en cuenta que este podra generar excepciones
