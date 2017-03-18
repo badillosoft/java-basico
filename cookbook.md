@@ -110,7 +110,13 @@ manejan indices y los diccionarios claves.
 ## Abrir un archivo
 
 Para abrir el flujo de un archivo hay que tomar en cuenta que este podra generar excepciones
-si el archivo no existe o no se tuvieran permisos de lectura. En el siguiente ejemplo se muestra la forma correcta de abrir el flujo
+si el archivo no existe o no se tuvieran permisos de lectura/escritura.
+
+Existen dos formas de abrir un archivo
+´Modo flujo: FileInputStream/FileOutputStream´,
+´Modo Texto: FileReader/FileWriter´.
+
+En el siguiente ejemplo se muestra la forma correcta de abrir el flujo
 de un archivo.
 
 ~~~java
